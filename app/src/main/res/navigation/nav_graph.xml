@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.personaldeets.HomeFragment"
-        android:label="fragment_home"
+        android:label="Home"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_gitHubWebFragment"
@@ -17,6 +17,6 @@
     <fragment
         android:id="@+id/gitHubWebFragment"
         android:name="com.example.personaldeets.GitHubWebFragment"
-        android:label="fragment_git_hub_web"
+        android:label="GitHub Profile"
         tools:layout="@layout/fragment_git_hub_web" />
 </navigation>
